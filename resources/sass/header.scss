@@ -1,0 +1,18 @@
+header{
+  padding:50px;
+  background:brown;
+  display: flex;
+  justify-content: space-around;
+  p,a{
+    color:white;
+    font-size:20px;
+    font-weight: 900;
+  }
+  a{
+    text-decoration: none;
+
+    &:hover{
+      color:purple;
+    }
+  }
+}
