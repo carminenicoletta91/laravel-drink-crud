@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Drink;
+use App\Models\Drink;
 class MyController extends Controller
 {
   public function getDrinks(){
